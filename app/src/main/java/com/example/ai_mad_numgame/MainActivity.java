@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.gson.Gson;  //make changes at appropriate places to include this dependency
+import com.google.gson.Gson; 
 
 import java.util.Arrays;
 import java.util.Collections;
