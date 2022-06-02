@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
     public int[][] dataPrep() {
         int[] data = new Gson().fromJson((sharedPreferences.getString("data", null)), performance.getClass());
         Log.i("data", Arrays.toString(data)); //this is how you display arrays in Logcat, for debugging
-        int dataFrame[][] = new int[6][2]; //creating a dataframe of two columns and six rows for regresson purpose
+        int dataFrame[][] = new int[6][2]; 
         if(data==null)
             return null;
         for (int i = 0; i < data.length; i++) {
